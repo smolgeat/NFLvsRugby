@@ -1,3 +1,3 @@
 worker = /NFLvsRugby/app/main.py
-web: gunicorn app:/NFLvsRugby/app/main
+web: gunicorn wsgi:/NFLvsRugby:app
 ps:scale web=1
