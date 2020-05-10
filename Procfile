@@ -1,3 +1,3 @@
 
-web:gunicorn app:NFLvsRugby/app/main
+web:gunicorn app:main
 
